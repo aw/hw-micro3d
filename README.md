@@ -4,6 +4,8 @@ A daughter board that mounts on a 3D printer hotend assembly to enable all wirin
 
 ![PCB with EVA mounts](https://user-images.githubusercontent.com/153401/129481154-35dc6980-86d1-4794-937f-2eaaaadb7e69.JPG)
 
+![PCB front back](https://user-images.githubusercontent.com/153401/129481438-097beb61-9e5c-4ec8-b684-7b5f89f4059f.jpg)
+
 ![PCB](https://user-images.githubusercontent.com/153401/129481175-4a2806fe-385c-436b-a77d-1f7bd8d1d940.JPG)
 
 This project is also described in detail [on Hackaday.io](https://hackaday.io/project/180918-3d-ratrig-v-core-3-eva-2-wiring-over-rj45)
