@@ -14,8 +14,7 @@ It can be purchased as a kit **[from Tindie](https://www.tindie.com/products/245
 
 This project is [certified open hardware](https://certification.oshwa.org/jp000011.html):
 
-[![OSHW_mark_JP000011](https://user-images.githubusercontent.com/153401/129275894-ec9e520a-f5d3-463a-a676-4d8060423e29.png)](https://certification.oshwa.org/jp000009.html)
-
+[![OSHW_mark_JP000011](https://user-images.githubusercontent.com/153401/143164020-e08f8696-5519-4732-a94d-6ec8307cb3ba.png)](https://certification.oshwa.org/jp000009.html)
 
 ### Note
 
