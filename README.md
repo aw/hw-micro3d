@@ -12,6 +12,11 @@ It can be purchased as a kit **[from Tindie](https://www.tindie.com/products/245
 
  [![Buy a kit](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png)](https://www.tindie.com/products/24538/)
 
+This project is [certified open hardware](https://certification.oshwa.org/jp000011.html):
+
+[![OSHW_mark_JP000011](https://user-images.githubusercontent.com/153401/129275894-ec9e520a-f5d3-463a-a676-4d8060423e29.png)](https://certification.oshwa.org/jp000009.html)
+
+
 ### Note
 
 **Updated PCB v.2 now supports hotend heater cartridge, thermistor, and PWM fan.**
