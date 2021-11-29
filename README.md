@@ -16,7 +16,7 @@ A toolboard that mounts on a 3D printer hotend assembly to enable wiring over RJ
 See the detailed documentation in the [docs/](docs/) directory:
 
   * [EXPLAIN](docs/EXPLAIN.md): learn the story behind this PCB, safety information, and OSHW
-  * [HOWTO](HOWTO.md): more detailed information on testing and wiring patterns
+  * [HOWTO](docs/HOWTO.md): more detailed information on testing and wiring patterns
   * [REFERENCE](docs/REFERENCE.md): learn about the pinouts, trace widths, and other technical information
   * [TUTORIALS](docs/TUTORIALS.md): a quick guide to **get started** using this module
 
