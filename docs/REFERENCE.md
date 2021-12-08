@@ -30,7 +30,7 @@ This PCB was designed with [KiCad EDA](https://kicad.org/) v5.1.9 from the `debi
   * High-current PCB traces are 3.0mm and can support at most 3.9A of current (2A tested)
   * High-current PCB traces are doubled on both sides of the PCB (for possibly ~7.8A current - not tested)
   * Grounded M3 mounting holes connected to GND pins
-  * [Certified Open Source Hardware](https://certification.oshwa.org/jp000011.html) licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  * [Certified Open Source Hardware](https://certification.oshwa.org/jp000011.html) licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
@@ -109,7 +109,7 @@ Below is the BOM list of through-hole components for one PCB:
 | 1 | 6-pin JST-XH male and female connector (2 pcs) | | B6B-XH / XHP-6 |
 | 19 | JST-XH socket for crimping | | SXH-001T-P0.6 |
 | | | | |
-| 6 | 2-pin JST-VH male and female connector (12 pcs) | [JST-VH connector.pdf](../datasheets/JST-V-connector.pdf) | B2P-VH-FB-B |
+| 6 | 2-pin JST-VH male and female connector (12 pcs) | [JST-VH connector.pdf](../datasheets/JST-VH-connector.pdf) | B2P-VH-FB-B |
 | 12 | JST-VH socket for crimping | | |
 
 ---
