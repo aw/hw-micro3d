@@ -15,6 +15,7 @@ This document provides more detailed information on testing and wiring patterns.
   1. [Wiring a PWM fan](#1-wiring-a-pwm-fan)
   2. [Wiring a heater cartridge](#2-wiring-a-heater-cartridge)
   3. [Testing connections](#3-testing-connections)
+  4. [Alternate wiring](#4-alternate-wiring)
 
 ![PCB board render](pcb-board-render.png)
 
@@ -57,6 +58,29 @@ Perform a similar test with the wiring between both PCBs over the high-current w
   * [EXPLAIN](EXPLAIN.md): learn the story behind this PCB, safety information, and OSHW
   * [REFERENCE](REFERENCE.md): learn about the pinouts, trace widths, and other technical information
   * [TUTORIALS](TUTORIALS.md): a quick guide to **get started** using this module
+
+# 4. Alternate wiring
+
+In the situation where you also want to wire an endstop, thermistor, and have PWM control over the parts fans, all through the RJ45 cables, there is an alternate wiring scheme which can be used.
+
+The idea is to use the ADXL pins **after tuning with the automatic [Input Shaper Calibration](https://www.klipper3d.org/Measuring_Resonances.html#input-shaper-auto-calibration)**. The ADXL does not need to be wired permanently, and it won't be used while the thermistor or fans are on (they'll cause too much noise), so it is possible to re-use those pins once calibration is complete.
+
+Simply follow the wiring chart below.
+
+**Left side** as viewed from the front:
+
+| Pin number | Label | Device |
+| :----: | :---- | :---- |
+| 1 | HOTEND FAN | Hotend fan + |
+| - | HOTEND FAN (GND) | Hotend fan - |
+| 2 | PARTS FAN | Endstop + |
+| - | PARTS FAN (GND) | Endstop - |
+| 3 | ADXL (GND) | unused |
+| 4 | ADXL | Thermistor |
+| 5 | ADXL | Thermistor |
+| 6 | ADXL | Endstop signal |
+| 7 | ADXL | Parts fan + |
+| 8 | ADXL | Parts fan - |
 
 # License
 

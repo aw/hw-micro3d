@@ -85,6 +85,8 @@ Here's a render of the PCB from the front side:
 | 7 | E-Motor | Low-current | yes (pin 8) |
 | 8 | E-Motor | Low-current | yes (pin 7) |
 
+> See the HOWTO docs for [Alternate wiring](HOWTO.md#4-alternate-wiring) alternate wiring of the endstop, thermistor, and parts fan.
+
 ---
 
 # 3. Schematic
