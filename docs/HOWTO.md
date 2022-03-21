@@ -65,12 +65,18 @@ In the situation where you also want to wire an endstop, thermistor, and have PW
 
 The idea is to use the ADXL pins **after tuning with the automatic [Input Shaper Calibration](https://www.klipper3d.org/Measuring_Resonances.html#input-shaper-auto-calibration)**. The ADXL does not need to be wired permanently, and it won't be used while the thermistor or fans are on (they'll cause too much noise), so it is possible to re-use those pins once calibration is complete.
 
-Simply follow the wiring chart below.
+Simply follow the wiring charts below.
+
+### Alternate 1
 
 **Left side** as viewed from the front:
 
 | Pin number | Label | Device |
 | :----: | :---- | :---- |
+| a | PARTS FAN (high current) | unused |
+| b | PARTS FAN (high current) | unused |
+| e | THERMISTOR (high current) | unused |
+| f | THERMISTOR (high current) | unused |
 | 1 | HOTEND FAN | Hotend fan + |
 | - | HOTEND FAN (GND) | Hotend fan - |
 | 2 | PARTS FAN | Endstop + |
@@ -78,6 +84,27 @@ Simply follow the wiring chart below.
 | 3 | ADXL (GND) | unused |
 | 4 | ADXL | Thermistor |
 | 5 | ADXL | Thermistor |
+| 6 | ADXL | Endstop signal |
+| 7 | ADXL | Parts fan + |
+| 8 | ADXL | Parts fan - |
+
+### Alternate 2
+
+**Left side** as viewed from the front:
+
+| Pin number | Label | Device |
+| :----: | :---- | :---- |
+| a | PARTS FAN (high current) | unused |
+| b | PARTS FAN (high current) | unused |
+| e | THERMISTOR (high current) | Thermistor |
+| f | THERMISTOR (high current) | Thermistor |
+| 1 | HOTEND FAN | unused |
+| - | HOTEND FAN (GND) | unused |
+| 2 | PARTS FAN | Endstop + |
+| - | PARTS FAN (GND) | Endstop - |
+| 3 | ADXL (GND) | unused |
+| 4 | ADXL | Hotend fan + |
+| 5 | ADXL | Hotend fan - |
 | 6 | ADXL | Endstop signal |
 | 7 | ADXL | Parts fan + |
 | 8 | ADXL | Parts fan - |
