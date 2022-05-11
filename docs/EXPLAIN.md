@@ -51,7 +51,7 @@ Low current PCB traces are 0.5mm and can support at most 1A of current, although
 
 High current PCB traces are 3.00mm and can support at most 3.9A of current, and possibly more because the traces are doubled on both sides. **High current traces have only been tested up to 2A. Please be warned and use at your own risk.**
 
-**Do not** connect a thermistor, heater cartridge, or high power fan to the low-current JST-XH/RJ45 connectors. It is only designed for low-current devices and you will have a bad day if you decide to pull more than it can handle.
+**Do not** connect a heater cartridge, or high power fan to the low-current JST-XH/RJ45 connectors. It is only designed for low-current devices and you will have a bad day if you decide to pull more than it can handle.
 
 **Do not** connect anything other than a μ3D module to the RJ45 cables. It does not use any known standard pinouts and will likely destroy any "ethernet" devices you connect (laptops, switches, IP cameras, etc).
 
