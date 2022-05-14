@@ -23,9 +23,11 @@ This document provides more detailed information on testing and wiring patterns.
 
 This PCB module is designed for 2 or 3-wire fans (ground, voltage, PWM signal).
 
+**WARNING:** DO NOT try to control the fan speed of a 2-wire fan. It should/must be _always on_ (i.e: running 100% all the time).
+
 Simple 2-wire fans only require a ground and voltage wire:
 
-* If it's a low-current fan (less than 1A), it should be wired to the small JST-XH connector labeled "HOTEND FAN" (pins 1 and GND) or "PARTS FAN" (pins 2 and GND). Please note a 2-wire fan will be _always on_ (i.e: running 100% all the time).
+* If it's a low-current fan (less than 1A), it should be wired to the small JST-XH connector labeled "HOTEND FAN" (pins 1 and GND) or "PARTS FAN" (pins 2 and GND).
 
 * If the fan is a high-current fan, the voltage and ground should be wired to the larger JST-VH connector labeled "PARTS FAN" (pins a and b).
 
